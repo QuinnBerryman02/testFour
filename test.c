@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 int confirm;
+int age;
 
 int main () {
   printf("Hi, Would you like to begin?\t");
@@ -11,4 +12,7 @@ int main () {
     printf("Goodbye!");
   }
   printf("Thank you for continuing!");
+  printf("Ok, first question.\nHow old are you?");
+  scanf("%d",&age);
+  printf("Cool you are %d years old.\nWould you like to answer another question?\t");
 }
