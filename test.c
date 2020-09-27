@@ -11,8 +11,8 @@ int main () {
     return 0;
     printf("Goodbye!");
   }
-  printf("Thank you for continuing!");
-  printf("Ok, first question.\nHow old are you?\t");
+  printf("Thank you for continuing!\n");
+  printf("Ok, first question. How old are you?\t");
   scanf("%d",&age);
   printf("Cool you are %d years old.\nWould you like to answer another question?\t", age);
 }
