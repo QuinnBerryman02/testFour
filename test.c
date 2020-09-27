@@ -8,7 +8,7 @@ int main () {
   scanf("%d", &confirm);
   if (!confirm) {
     return 0;
-    printf("Goodbye!")
+    printf("Goodbye!");
   }
   printf("Thank you for continuing!");
 }
