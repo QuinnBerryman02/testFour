@@ -12,7 +12,7 @@ int main () {
     printf("Goodbye!");
   }
   printf("Thank you for continuing!");
-  printf("Ok, first question.\nHow old are you?");
+  printf("Ok, first question.\nHow old are you?\t");
   scanf("%d",&age);
-  printf("Cool you are %d years old.\nWould you like to answer another question?\t");
+  printf("Cool you are %d years old.\nWould you like to answer another question?\t", age);
 }
