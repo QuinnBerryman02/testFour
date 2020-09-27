@@ -10,7 +10,7 @@ int main () {
   confirmer();
   printf("\nHow old are you?\t");
   scanf("%d",&age);
-  printf("\nCool you are %d years old.", age);
+  printf("Cool you are %d years old.", age);
   confirmer();
 }
 
@@ -22,7 +22,7 @@ int confirmer() {
       printf("Goodbye!");
       exit(0);
     }
-    printf("\nOk next question.");
+    printf("Ok next question.");
     return 0;
   } else if (begin == 1) {
     begin = 0;
